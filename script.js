@@ -13,7 +13,7 @@ document.querySelector("#overlay1").addEventListener("mousemove", function(dets)
     document.querySelector("#elem1 img").style.scale = 1
     document.querySelector("#elem1 img").style.opacity = 1
     cursor.style.opacity = 0
-    document.querySelector("#elem1 img").style.left = (dets.x - 440) + "px"
+    document.querySelector("#elem1 img").style.left = (dets.x - 470) + "px"
     document.querySelector("#elem1 img").style.top = (dets.y - 250) + "px"
     maincursor.style.scale = 0
 
